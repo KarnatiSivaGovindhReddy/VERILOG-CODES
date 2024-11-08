@@ -12,7 +12,7 @@ module multiplier_gate_level(
     assign temp[2] = (A[2] & B[0]) ^ (A[1] & B[1]) ^ (A[0] & B[2]);
     assign temp[3] = (A[2] & B[1]) ^ (A[1] & B[2]);
     assign temp[4] = A[2] & B[2];
-    assign temp[5] = 0; // No carry-out
+    assign temp[5] = 0; 
     assign P = temp;
 endmodule
 # DATA FLOW MODELING CODE
